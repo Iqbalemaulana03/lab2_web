@@ -1,0 +1,168 @@
+nav {
+	background: #C5AD7F;
+	color:#fff;
+	padding: 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding:10px 20px;
+}
+
+nav .active,
+nav a:hover {
+	background: #0B6B3A;
+}
+
+/* ID Selector */
+#intro {
+	background-color: rgba(109, 134, 140, 0.6);
+	border: 1px solid #C5AE80;
+	min-height: 100px;
+	padding: 10px;
+
+}
+#intro h1 {
+	text-align: left;
+	border: 0;
+	color: #fff;
+}
+
+/* Class Selector */
+.button {
+	padding: 15px 20px;
+	background: #2F4858;
+	color: #fff;
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.btn-primary {
+	background: #2F4858;
+}
+
+.btn-primary:hover{
+	background: #4294DA;
+}
+
+/* Addition */
+
+body {
+    background-image: url("img/bg.png");
+    background-size: coverA;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+
+}
+
+.container {
+	margin-top: 35px;
+	height: 90%;
+	display: block;
+}
+.container .box {
+	width: 33%;
+	display: inline-block;
+	/* [disabled]background-color: black; */
+}
+
+.container .box a {
+	text-align: center;
+	background-color: #BB3436;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 155%;
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 20%;
+	margin-bottom: 5px;
+	border-radius: 5%;
+	border: 3px solid #8A8A8A;
+}
+.container .box #left {
+	background-color: #24292E;
+}
+.container .box #middle {
+	background-color: #FBBC05;
+}
+.container .box #right {
+	background-color: #4CAF50;
+}
+.container .box #left:hover {
+    background-color: #31394F;
+    animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.container .box #middle:hover {
+	background-color: #FFA14D;
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.container .box #right:hover  {
+	background-color: #56DB5B;
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.img_container {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img_container img {
+    margin: auto;
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    height: auto;
+}
+footer {
+    height: 175px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(180deg,rgba(41,41,41,1.00) 3.73%,rgba(40,40,40,0.98) 71.51%,rgba(40,40,40,0.98) 72.75%,rgba(53,58,58,0.95) 100%);
+    margin-top: 30px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    color: #C7C7C7;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+footer a {
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+#footer-right {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-top: 23px;
+    padding-left: 0px;
+    margin-left: 10%;
+}
+#footer-left {
+    float: left;
+    width: 39%;
+    height: auto;
+    margin-left: 11%;
+    margin-top: 23px;
+}
